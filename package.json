@@ -1,0 +1,14 @@
+{
+  "name": "WidgetDashboard",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "express": "3.21.2",
+    "sentiment": "^1.0.6",
+    "twitter": "node_modules/twitter"
+  }
+}
