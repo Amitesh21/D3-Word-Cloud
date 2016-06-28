@@ -15,7 +15,7 @@ exports.readDirectory = function(req,res) {
 	fs.readdir(folderName, function(err, data){
 		if (err) {
 			throw err; 
-		} 
+		}
 		
 		
 		//console.log("length---------------------: "+data.length);
