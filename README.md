@@ -1,8 +1,9 @@
 # Word Cloud
 
-WidgetDashboard
-
-
+1. Developed a Word Cloud based using D3.js. 
+2. Reading the files from a directory of type pdf or docx.
+3. Generating a HashMap with each word and its count in all the documents. 
+4. Using this metrics to decide the size of an indvidual word and generating the Word-Cloud.
 
 ## Usage
 
