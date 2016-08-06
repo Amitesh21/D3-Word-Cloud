@@ -1,6 +1,6 @@
 Sample WordCloud:
 
-<img width="763" alt="screen shot 2016-07-15 at 12 20 35 am" src="https://cloud.githubusercontent.com/assets/14050490/16867122/e769cc68-4a24-11e6-8e01-4aca639e14e4.png">
+<img width="787" alt="screen shot 2016-08-06 at 4 31 09 am" src="https://cloud.githubusercontent.com/assets/14050490/17456602/4c57bbde-5b92-11e6-9b4a-d55939846151.png">
 
 
 # Word Cloud
