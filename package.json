@@ -1,5 +1,5 @@
 {
-  "name": "WidgetDashboard",
+  "name": "D3-Word-Cloud",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,8 +7,6 @@
   },
   "dependencies": {
     "ejs": "*",
-    "express": "3.21.2",
-    "sentiment": "^1.0.6",
-    "twitter": "node_modules/twitter"
+    "express": "3.21.2"
   }
 }

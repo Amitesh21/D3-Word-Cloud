@@ -1,135 +1,35 @@
 
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-<head>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Bootstrap Core CSS -->
-    <link href="/stylesheets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/sb-admin.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="assets1/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!-- Custom CSS -->
-    <link href="/stylesheets/css/simple-sidebar.css" rel="stylesheet">
-
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-	 <script src="https://code.angularjs.org/1.4.7/angular-route.min.js"> </script>
-	 <link href="assets1/css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets1/css/font-awesome.min.css">
-
-    <script src="assets1/js/jquery.min.js"></script>
-    <script src="assets1/js/Chart.js"></script>
-
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" style="background-color: #fff">
-    
-    <header id="top-header" class="navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <!-- responsive nav button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!-- /responsive nav button -->
-                    
-                </div>
-
-                <!-- main nav -->
-                <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                    <div class="main-menu">
-                        <ul id="nav" class="nav navbar-nav">
-                            <li>
-                                <a href="#"><i class="fa fa-user"></i> Welcome</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <!-- /main nav -->
-                
-            </div>
-        </header>
-
-
-    <div id="wrapper">
-
-       
-<br><br>
-        
-        <!-- /#sidebar-wrapper -->
-        
-    <!-- /#page-content-wrapper -->
-    </div>
-    <div style="padding-left:250px;">
-		  <script src="d3WordCloud/lib/d3/d3.js"></script>
-		  <script src="d3WordCloud/lib/d3.layout.cloud.js"></script>
-		  <script src="d3WordCloud/scrape_data.js"></script>
-		  <script src="d3WordCloud/app.js"></script>
-	</div>
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <p class="text-center">
-                        &copy; 2016 <!-- <a target="_blank" href="http://themeinthebox.com" title="Free Twitter Bootstrap WordPress Themes and HTML templates">themeinthebox.com</a> -->
-                    </p>
-                    
-                    <ul class="social-icons text-center">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                    </ul>
-                </div>
-            </div>
+    <body>
+        <div style="padding-left:100px;color:#fff; background-color:#000;">
+            <br><h3><strong>Generating Word cloud based on Doctor's prescription</strong></h3><hr>
         </div>
-    </footer><!--/#footer-->
+        <div style="padding-left:350px;">
+    		  <script src="d3WordCloud/lib/d3/d3.js"></script>
+    		  <script src="d3WordCloud/lib/d3.layout.cloud.js"></script>
+    		  <script src="d3WordCloud/scrape_data.js"></script>
+    		  <script src="d3WordCloud/app.js"></script>
+    	</div>
 
-    <!-- jQuery -->
-    <script src="/stylesheets/js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/stylesheets/js/bootstrap.min.js"></script>
-    <script src="assets1/js/classie.js"></script>
-    <script src="assets1/js/bootstrap.min.js"></script>
-    <script src="assets1/js/smoothscroll.js"></script>
-    <script src="assets1/js/main.js"></script>
-    <script type="text/javascript" src="js/semantic.js"></script>
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/mousescroll.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/jquery.inview.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/main.js"></script>
-    <!-- Menu Toggle Script -->
-
-</body>
-
+        <footer style="padding-left:100px;color:#fff; background-color:#000;">
+            <br>            
+            <p style="padding-left:200px;">@WordCloud</p><br>
+        </footer>
+    </body>
 </html>
